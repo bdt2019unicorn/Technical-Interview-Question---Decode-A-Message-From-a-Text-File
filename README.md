@@ -1,1 +1,10 @@
-# Technical-Interview-Question---Decode-A-Message-From-a-Text-File
+Technical Interview Question: Decode A Message From a Text File
+
+
+The steps to get to the solution: 
+
+1. Read the input and put them into an array
+2. Create a staircase subset based on the number of words
+3. If staircase is possible, create the pattern by taking the last element of each subset
+4. Check each word in the input and split them up into index and word to use. When the index matched a pattern number, use the word. To save time, as long as we have the match, put count up one. When the count is the same as the number of word supposed to be in pattern, we stop checking. 
+5. Merge all the word we found based on the pattern to get a complete sentence 
